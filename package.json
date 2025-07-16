@@ -1,0 +1,26 @@
+{
+  "name": "maedchenkram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss assets/css/styles.css -o public/css/styles.css --watch",
+    "build:css": "postcss assets/css/styles.css -o public/css/styles.css",
+    "serve": "browser-sync start --proxy 'https://starter.ddev.site/' --files 'public/**/*.{css,js,php,html}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "browser-sync": "^3.0.4",
+    "postcss": "^8.5.5",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.10"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10"
+  }
+}

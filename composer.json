@@ -1,0 +1,21 @@
+{
+    "name": "ayarenl/my-ddev-project",
+    "description": "Ein PHP-Projekt mit DDEV und Autoloading",
+    "type": "no",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DDEV User",
+            "email": "nobody@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/mailer": "^7.3",
+        "symfony/dotenv": "^7.3"
+    }
+}

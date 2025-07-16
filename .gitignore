@@ -1,0 +1,40 @@
+# Abhängigkeiten
+/node_modules/
+/vendor/
+
+# Build-Dateien
+/dist/
+/build/
+/assets/
+
+# Umgebungsvariablen
+.env
+.env.local
+.env.*
+
+# Editor-/IDE-Dateien
+/.idea/
+/.vscode/
+/*.code-workspace
+
+# Log- & Temp-Dateien
+*.log
+*.tmp
+*.cache
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Tests
+*.test.*
+*.spec.*
+
+# Lockfiles (optional)
+composer.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# DDEV
+.ddev/
+install_ddev.sh
