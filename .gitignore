@@ -8,6 +8,7 @@
 /assets/
 
 # Umgebungsvariablen
+/includes
 .env
 .env.local
 .env.*
