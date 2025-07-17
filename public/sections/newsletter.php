@@ -7,7 +7,7 @@
     <form method="post" action="../handlers/newsletter-handler.php" class="space-y-4">
         <div>
             <label for="email" class="block text-sm font-medium text-gray-700">E-Mail-Adresse</label>
-            <input type="email" name="email" id="email" required
+            <input type="email" name="email" id="email" required placeholder="Deine E-Mail"
                    class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring focus:ring-primary focus:border-primary">
         </div>
 

@@ -1,7 +1,7 @@
 <?php // hero.php ?>
 <section id="hero" class="relative w-full h-[80vh] overflow-hidden">
     <!-- Hintergrundvideo -->
-    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+    <video autoplay muted loop playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0">
         <source src="/assets/video/mk-hero-video.mp4" type="video/mp4">
     </video>
     <!-- Halbtransparenter Overlay für bessere Lesbarkeit -->
