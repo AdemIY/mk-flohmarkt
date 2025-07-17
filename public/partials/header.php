@@ -37,9 +37,9 @@ header('Content-Type: text/html; charset=utf-8');
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <a href="dashboard.php"
                        class="text-blue-600  text-lg link-hover-underline">Dashboard</a>
-                    <a href="logout.php" class="text-red-600 text-lg link-hover-underline">Logout</a>
+                    <a href="/logout.php" class="text-red-600 text-lg link-hover-underline">Logout</a>
                 <?php else: ?>
-                    <a href="login.php" class="text-gray-600 hover:text-primary text-lg link-hover-underline">Login</a>
+                    <a href="/login.php" class="text-gray-600 hover:text-primary text-lg link-hover-underline">Login</a>
                 <?php endif; ?>
             </nav>
 

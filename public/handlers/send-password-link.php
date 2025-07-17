@@ -7,7 +7,7 @@ use Symfony\Component\Mailer\Transport;
 use Symfony\Component\Mime\Email;
 
 $db = connect();
-$config = require __DIR__ . '/../../config.php';
+$config = require __DIR__ . '/../../includes/config.php';
 
 $email = $_POST['email'] ?? $_GET['email'] ?? '';
 if (!$email) {
@@ -71,7 +71,7 @@ try {
         'sent_at' => $sentAt
     ]);
 // 4. Mail versenden
-    $link = "https://starter.ddev.site/set-password.php?token=$token";
+    $link = "http://mk.adem.at/set-password.php?token=$token";
 
     $transport = Transport::fromDsn($config['mailer_dsn']);
     $mailer = new Mailer($transport);

@@ -2,7 +2,7 @@
 session_start();
 require_once __DIR__ . '/../../includes/db.php';
 require_once __DIR__ . '/../../vendor/autoload.php';
-$config = require __DIR__ . '/../../config.php';
+$config = require __DIR__ . '/../../includes/config.php';
 
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport;
