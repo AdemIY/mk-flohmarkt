@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li>
-                <a href="/admin/users.php"
+                <a href="/admin/user/users.php"
                    class="block px-6 py-4 hover:bg-gray-50 text-gray-800 font-medium">
                     👤 Benutzerverwaltung
                 </a>

@@ -13,5 +13,6 @@ require_once __DIR__ . '/../includes/db.php';
     <?php include 'sections/faq.php'; ?>
     <?php include 'sections/map.php'; ?>
     <?php include 'sections/newsletter.php'; ?>
+    <?php include 'sections/instafeed.php'; ?>
 </main>
 <?php include 'partials/footer.php'; ?>

@@ -6,7 +6,7 @@ use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport;
 use Symfony\Component\Mime\Email;
 
-$db = connect();
+
 $config = require __DIR__ . '/../../includes/config.php';
 
 $email = $_POST['email'] ?? $_GET['email'] ?? '';
@@ -31,6 +31,7 @@ if (!$email) {
 }
 
 try {
+    $db = connect();
     // 1. Nutzer finden
     $stmt = $db->prepare("SELECT id, password FROM users WHERE email = :email");
     $stmt->execute(['email' => $email]);
